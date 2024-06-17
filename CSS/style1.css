@@ -1,0 +1,53 @@
+body{
+    background: url("/image/register.jpg");
+}
+.regform{
+    width: 500px;
+    background-color: rgba(180, 180, 180,.6) ;
+    margin: 95px auto ;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.regform h3{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #254336;
+
+}
+.regform .textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1em;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid #365E32;
+    margin: 10px 0px;
+}
+.button{
+    text-align: center;
+}
+button{
+    background-color: #365E32;
+    margin-top: 20px;
+    font-size: 1.1em;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+input:focus{
+    background-color: #81A263;
+}
+
+.radio input{
+    accent-color: #81A263;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
